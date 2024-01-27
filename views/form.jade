@@ -1,0 +1,9 @@
+extend layout
+
+block content 
+  form(method="POST", action="/new")
+    div.form-div user: 
+      input(name="messageUser")
+    div.form-div text:  
+      input(name="messageText")
+    button(type="submit") submit
